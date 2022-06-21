@@ -1,0 +1,33 @@
+img {
+    width: 600px;
+    height: 600px;
+}
+#boton1{
+    
+   margin: 20px;
+    position:absolute;
+    left: 30%;
+    
+}
+body{
+    background-color: lightblue;
+}
+#nav1{
+    margin: 25px;
+}
+
+
+.text1 {
+    width: 100%;
+    height: 100%;
+    animation: pulse 5s infinite;
+  }
+  
+  @keyframes pulse {
+    0% {
+      background-color: #24ad5d;
+    }
+    100% {
+      background-color: #FF4136;
+    }
+}
